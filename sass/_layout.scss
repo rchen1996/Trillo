@@ -25,4 +25,7 @@
 
 .hotel-view {
   background-color: #fff;
+
+  // element should grow as much as it can (occupy remaining space of container)
+  flex: 1;
 }
