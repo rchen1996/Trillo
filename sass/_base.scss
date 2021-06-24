@@ -12,6 +12,15 @@ Grey dark 2: #777
 Grey dark 3: #999
 */
 
+// CSS variables cascade and are inherited
+// put all variables into root pseudoclass - so that they are available to all child elements
+// declare variables (custom properties) using --
+:root {
+  --color-primary: #eb2f64;
+  --color-primary-light: #ff3366;
+  --color-primary-dark: #ba265d;
+}
+
 * {
   margin: 0;
   padding: 0;
