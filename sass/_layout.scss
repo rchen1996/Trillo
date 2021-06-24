@@ -18,6 +18,9 @@
 
 .sidebar {
   background-color: var(--color-grey-dark-1);
+
+  // don't grow, don't shrink, flex-basis (always keep at 18%)
+  flex: 0 0 18%;
 }
 
 .hotel-view {
